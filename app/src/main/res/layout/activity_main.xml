@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7DA"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#FD8E09"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="16dp"
+        android:text="Numbers"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/family"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:background="#379237"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="16dp"
+        android:text="Family Members"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/numbers"
+        app:layout_constraintStart_toStartOf="@+id/numbers"
+        app:layout_constraintTop_toBottomOf="@+id/numbers" />
+
+    <Button
+        android:id="@+id/colors"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:background="#8800A0"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="16dp"
+        android:text="Colors"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/family"
+        app:layout_constraintStart_toStartOf="@+id/family"
+        app:layout_constraintTop_toBottomOf="@+id/family" />
+
+    <Button
+        android:id="@+id/phrases"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:background="#16AFCA"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="16dp"
+        android:text="Phrases"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/colors"
+        app:layout_constraintStart_toStartOf="@+id/colors"
+        app:layout_constraintTop_toBottomOf="@+id/colors" />
+</android.support.constraint.ConstraintLayout>
